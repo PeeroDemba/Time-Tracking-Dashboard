@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/e8e396a811.js"
+      crossorigin="anonymous"></script>
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="profilegrid">
+        <div class="profile">
+          <img src="./images/image-jeremy.png" alt="" />
+          <p>Report for <span class="name">Jeremy Robson</span></p>
+        </div>
+        <div class="switch">
+          <button id="daily">Daily</button>
+          <button id="weekly" class="current">Weekly</button>
+          <button id="monthly">Monthly</button>
+        </div>
+      </div>
+      <div class="workgrid">
+        <div class="img">
+          <img src="./images/icon-work.svg" alt="" />
+        </div>
+        <div id="work">
+          <div class="top">
+            <p>Work</p>
+            <i class="fa-solid fa-ellipsis fa-lg"></i>
+          </div>
+          <div class="group">
+            <p class="time"><span id="wctime">32</span>hrs</p>
+            <p>Previous - <span id="wptime">36</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="playgrid">
+        <div class="img">
+          <img src="./images/icon-play.svg" alt="" />
+        </div>
+        <div id="play">
+          <div class="top">
+            <p>Play</p>
+            <i class="fa-solid fa-ellipsis fa-lg"></i>
+          </div>
+          <div class="group">
+            <p class="time"><span id="pctime">10</span>hrs</p>
+            <p>Previous - <span id="pptime">8</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="studygrid">
+        <div class="img">
+          <img src="./images/icon-study.svg" alt="" />
+        </div>
+        <div id="study">
+          <div class="top">
+            <p>Study</p>
+            <i class="fa-solid fa-ellipsis fa-lg"></i>
+          </div>
+          <div class="group">
+            <p class="time"><span id="stctime">4</span>hrs</p>
+            <p>Previous - <span id="stptime">7</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="exercisegrid">
+        <div class="img">
+          <img src="./images/icon-exercise.svg" alt="" />
+        </div>
+        <div id="exercise">
+          <div class="top">
+            <p>Exercise</p>
+            <i class="fa-solid fa-ellipsis fa-lg"></i>
+          </div>
+          <div class="group">
+            <p class="time"><span id="ectime">4</span>hrs</p>
+            <p>Previous - <span id="eptime">5</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="socialgrid">
+        <div class="img">
+          <img src="./images/icon-social.svg" alt="" />
+        </div>
+        <div id="social">
+          <div class="top">
+            <p>Social</p>
+            <i class="fa-solid fa-ellipsis fa-lg"></i>
+          </div>
+          <div class="group">
+            <p class="time"><span id="soctime">5</span>hrs</p>
+            <p>Previous - <span id="soptime">10</span>hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="selfcaregrid">
+        <div class="img">
+          <img src="./images/icon-self-care.svg" alt="" />
+        </div>
+        <div id="selfcare">
+          <div class="top">
+            <p>Self Care</p>
+            <i class="fa-solid fa-ellipsis fa-lg"></i>
+          </div>
+          <div class="group">
+            <p class="time"><span id="sectime">2</span>hrs</p>
+            <p>Previous - <span id="septime">2</span>hrs</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jonathan-Hart Peter T.</a>.
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
